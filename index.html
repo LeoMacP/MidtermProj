@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Your navbar content here -->
+            <ul>
+                <li><a class="active" href="#home">Welcome to HBPrime Flix</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#TvShows">Tv Shows</a></li>
+                <li><a href="#Sign-in">Sign in</a></li>
+                <li><a href="#Login">Login</a></li>
+              </ul>
+        </nav>
+        <div class="banner">
+            <img src="https://static.vecteezy.com/system/resources/previews/015/416/101/non_2x/movie-time-sign-banner-recording-projector-icons-old-picture-roll-frame-filmstrip-spotlight-festival-cinema-poster-or-flyer-template-for-your-design-illustration-free-vector.jpg" alt="Movie Time Banner">
+            <div class="search-bar-container">
+                <input type="text" id="search-bar" placeholder="Search for a movie, TV show, ">
+                <button id="search-button">Action</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="popular">
+            <h2>Popular Movies</h2>
+            <div class="movies-container" id="popular-movies"></div>
+        </section>
+        <section id="top-rated">
+            <h2>Top Rated Movies</h2>
+            <div class="movies-container" id="top-rated-movies"></div>
+        </section>
+        <section id="upcoming">
+            <h2>Upcoming Movies</h2>
+            <div class="movies-container" id="upcoming-movies"></div>
+        </section>
+    </main>
+</body>
+</html>
+
